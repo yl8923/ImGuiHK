@@ -64,9 +64,9 @@ void GuiDraw()
 
 	if (!g_hWnd) return;
 
-	if (GetAsyncKeyState(VK_HOME) != 0)
+	if (GetAsyncKeyState(VK_HOME) != 0) //按下Home按键 的事件处理
 	{
-		DrawOpen =!DrawOpen;
+		DrawOpen =!DrawOpen;	//打开关闭绘制的变量控制取反
 		Sleep(150);
 	}
 

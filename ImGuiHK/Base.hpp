@@ -5,8 +5,8 @@
 enum Base
 {
 	UWorld_ = 0x777777,		//UWorldÆ«ÒÆ
-	UFName_ = 0x777777,		//UObjectÆ«ÒÆ
-	GObject = 0x777777,		//UNameÆ«ÒÆ
+	UFName_ = 0x777777,		//UFNameÆ«ÒÆ
+	GObject = 0x777777,		//ObjectÆ«ÒÆ
 	Matrix_ = 0x777777,		// ¾ØÕóµØÖ·Ê×²ãÆ«ÒÆ[["torchlight_infinite.exe"+08869920]+0x20]+0x280
 	//¾ØÕóÍ¨ÓÃÌØÕ÷Âë£º00 00 00 00 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 80 3F 00 00 00 00
 	//[Canvas Transient.DebugCanvasObject]+0x280
