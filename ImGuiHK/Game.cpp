@@ -59,9 +59,6 @@ std::string u82str(const std::string& str)
 
 void GuiDraw()
 {
-
-
-
 	if (!g_hWnd) return;
 
 	if (GetAsyncKeyState(VK_HOME) != 0) //按下Home按键 的事件处理

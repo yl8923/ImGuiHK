@@ -15,17 +15,6 @@ size_t ReadMem(int64_t address, void* recv, int size)
 }
 
 
-void LOG1(char* pszFormat, ...)
-{
-	char szbufFormat[0x1000];
-	char szbufFormat_Game[0x1100] = "[AeiyDbg]:";
-	va_list argList;
-	va_start(argList, pszFormat);//参数列表初始化
-	vsprintf_s(szbufFormat, pszFormat, argList);
-	strcat_s(szbufFormat_Game, szbufFormat);
-	OutputDebugStringA(szbufFormat_Game);
-	va_end(argList);
-}
 
 bool Matrix::GetMatrixArr()
 {
